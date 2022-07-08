@@ -1,0 +1,472 @@
+/* Fuentes */
+
+@font-face {
+    font-family: 'Font1';
+    src: url(/Fonts/barnie-font/Barnie-Wy2xO.ttf);
+}
+
+* {
+    font-family: 'Font1';
+}
+
+.container {
+    margin-top: 40px;
+}
+
+/* usuarios */
+.img{
+    position: absolute;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+/* Barra de navegacion */
+
+nav {
+    font-family: 'Font2';
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+nav .container-fluid{
+    height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+}
+
+nav .nav-item {
+    margin-left: 20px;
+    font-size: larger;
+    border-radius: 30px;
+}
+
+nav .nav-link.active {
+    font-weight: bold;
+    background: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+nav .container-fluid li {
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    margin-right: 10px;
+}
+
+
+nav .container-fluid .collapse.navbar-collapse .navbar-nav li:hover {
+    background: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#userdropdown img {
+    border-radius: 70%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    position: relative;
+}
+
+nav .container-fluid .nav.navbar-nav.navbar-right .dropdown .dropdown-item li a:hover {
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+nav .container-fluid .dropdown .dropdown-item li a:hover {
+    transform: none;
+}
+
+nav .container-fluid .navbar-brand {
+    border-radius: 30px;
+}
+
+nav .container-fluid .collapse.navbar-collapse li {
+    border-radius: 30px;
+}
+
+/* planes de pago */
+
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background: #dfe2df;
+        font-family: 'open sans';
+    }
+    
+    .pago > h2{
+        position: relative;
+        left: 520px;
+        font-size: 40px;
+        
+    }
+    .contenedor{
+        width: 90%;
+        max-width:900px;
+        margin: auto;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .tabla{
+        width: 33%;
+        height: 550px;
+        margin: auto;
+        border:1px solid #343759;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px 0px  #343759;
+        padding: 60px;
+        text-align: center;
+        flex-grow: 1;
+        color: #343759;
+    }
+    
+    .tabla>h2{
+        font-size:30px;
+        margin-bottom:35px;
+    }
+    
+    .tabla img{
+        width: 64px;
+        margin-bottom:35px;
+    }
+    
+    .tabla > h3{
+        font-size:30px;
+        margin-bottom: 20px;
+    }
+    
+    .tabla > p{
+        display: block;
+        margin-bottom:20px;
+    }
+    
+    .boton{
+        display:inline-block;
+        width: 150px;
+        padding:12px;
+        background: #2a2a29;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin: auto;
+    }
+    
+    .tabla:hover{
+        background: #4d4d51;
+        color: #f1f1f2;
+        transition: .5s all;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 1000px){
+        .tabla{
+            width: 45%;
+            max-width:none;
+            margin-bottom: 40px;
+            flex-grow: initial;
+        }
+    }
+    
+    @media screen and (max-width: 700px){
+        .tabla{
+            width: 45%;
+            padding:30px;
+        }
+        .tabla > h2{
+            margin-top:40px;
+        }
+    }
+    
+    @media screen and (max-width:550px){
+        .tabla{
+            width: 85%;
+            padding: 20px;
+        }
+    }
+
+    .gradient-custom-3 {
+        /* fallback for old browsers */
+        background: #84fab0;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+        }
+        .gradient-custom-4 {
+        /* fallback for old browsers */
+        background: #84fab0;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+
+    
+    .container > .tex{
+        color: #007bff;
+    }
+
+    /* secciones */
+
+    
+
+    .ec-stars-wrapper {
+        font-size: 0;
+       
+        display: inline-block;
+    }
+    .ec-stars-wrapper a {
+        text-decoration: none;
+        display: inline-block;
+        
+        font-size: 32px;
+        font-size: 2rem;
+        position: relative;
+        top: -60px;
+        left: 130px;
+        color: #888;
+    }
+    
+    .ec-stars-wrapper:hover a {
+        color: rgb(39, 130, 228);
+    }
+    /*
+     * El selector de hijo, es necesario para aumentar la especifidad
+     */
+    .ec-stars-wrapper > a:hover ~ a {
+        color: #888;
+    }
+
+    /* secciones */
+
+    .bloque{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: 20px;
+    }
+    .container.secciones {
+
+        height: 100vw;
+    }
+    .img1{
+       
+        position: relative;
+        left: 40px;
+        top: 20px;
+        
+
+        
+        
+    }
+
+    .img1 > h2{
+        font-size: 20px;
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+
+    .img1 > h3{
+        position: relative;
+        top: -100px;
+        top: -37px;
+    }
+
+    .img1 > .verificacion{
+        width: 10px;
+        height: 20px;
+        position: relative;
+        left: 235px;
+        top: -205px;
+    }
+
+    .ec-stars-wrapper {
+        font-size: 0;
+       
+        display: inline-block;
+    }
+    .ec-stars-wrapper a {
+        text-decoration: none;
+        display: inline-block;
+        
+        font-size: 32px;
+        font-size: 2rem;
+        position: relative;
+        top: 5px;
+        left: 130px;
+        color: #888;
+    }
+    
+    .ec-stars-wrapper:hover a {
+        color: rgb(39, 130, 228);
+    }
+    /*
+     * El selector de hijo, es necesario para aumentar la especifidad
+     */
+    .ec-stars-wrapper > a:hover ~ a {
+        color: #888;
+    }
+
+    .bloque2{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -280px;
+        left: 400px;
+        
+        
+    }
+
+    .bloque3{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -580px;
+        left: 800px;
+        right: 30px;
+    }
+
+    .bloque4{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -500px;
+        
+    }
+
+    .bloque5{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -800px;
+        left: 400px;
+        
+    }
+
+    .bloque6{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -1100px;
+        left: 800px;
+        right: 30px;
+    }
+
+    .bloque7{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -1025px;
+    }
+
+    .bloque8{
+        width: 350px;
+        height: 300px;
+        background-color: #f1f1f2;
+        position: relative;
+        top: -1325px;
+        left: 400px;
+    }
+
+
+.titulo2{
+    position: relative;
+    top: -500px;
+}
+
+.titulo3{
+    position: relative;
+    top: -1050px;
+}
+
+.titulo4{
+    position: relative;
+    top: -1550px;
+}
+.bloque9{
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f2;
+    position: relative;
+    top: -1625px;
+    left: 800px;
+    right: 30px;
+}
+
+
+.bloque10{
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f2;
+    position: relative;
+    top: -1500px;
+}
+
+.bloque11{
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f2;
+    position: relative;
+    top: -1800px;
+    left: 400px;
+}
+
+.bloque12{
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f2;
+    position: relative;
+    top: -2100px;
+    left: 800px;
+    right: 30px;
+}
+
+
+.container.secciones img:hover, h2:hover {
+    cursor: pointer;
+}
+
+.container.secciones {
+    margin-bottom: 0px;
+}
